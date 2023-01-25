@@ -1,0 +1,28 @@
+.container {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 100%;
+  background-color: #437085;
+}
+
+.socialIconsContainer {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.companyInfo {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 0.8;
+  color: #ecebe7;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}

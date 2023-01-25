@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rufina:wght@400;700&display=swap');
+
+.App {
+  max-width: 100vw;
+}
+
+html,
+body,
+div,
+section,
+header,
+footer,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Rufina', serif;
+  font-size: 5rem;
+}
+
+button {
+  border: none;
+  background-color: #437085;
+  color: #ecebe7;
+  padding: 1.5rem 2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  display: block;
+  margin: 4rem auto;
+  -webkit-box-shadow: -1px -1px 31px -7px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -1px -1px 31px -7px rgba(0, 0, 0, 0.62);
+  box-shadow: -1px -1px 31px -7px rgba(0, 0, 0, 0.62);
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: #1a6486;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.enabled {
+  opacity: 1;
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  button {
+    margin: 3.5rem auto;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  button {
+    margin: 3rem auto;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}

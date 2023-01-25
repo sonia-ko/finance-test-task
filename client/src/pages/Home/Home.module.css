@@ -1,0 +1,33 @@
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.informationBlock {
+  padding: 5rem 0;
+}
+
+.text {
+  font-size: 2rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link {
+  color: #ecebe7;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .text {
+    width: 75%;
+  }
+}

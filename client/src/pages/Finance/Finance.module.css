@@ -1,0 +1,15 @@
+.tickersContainer {
+  width: 100%;
+  max-width: 100%;
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+
+.banner {
+  width: 80%;
+  max-width: 80%;
+}
+
+.container {
+  width: 100%;
+}

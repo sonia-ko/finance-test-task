@@ -1,0 +1,243 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 1rem 0 1rem;
+  font-size: 1.2rem;
+  border-bottom: 1px dotted gray;
+  align-items: center;
+  text-align: left;
+}
+
+.label {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 8%;
+  text-align: center;
+}
+
+.disabledLabel {
+  background-color: rgb(209, 206, 206);
+}
+.name {
+  text-align: left;
+  text-align: left;
+  width: 15%;
+  padding-left: 1rem;
+}
+
+.disabledName {
+  width: 85%;
+  color: rgb(209, 206, 206);
+}
+.priceChange {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  align-self: flex-start;
+  width: 10%;
+}
+
+.price {
+  width: 8%;
+}
+
+.changePercent {
+  width: 8%;
+}
+
+.percent {
+  width: 15%;
+  padding-left: 3rem;
+}
+.divident {
+  width: 10%;
+}
+
+.exchange {
+  width: 10%;
+}
+
+.iconContainer {
+  width: 8%;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+}
+
+.iconContainer:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon {
+  fill: rgb(209, 206, 206);
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
+.starIconContainer {
+  width: 5%;
+}
+
+.starIconEnabled,
+.startIconDisabled {
+  fill: rgb(245, 203, 19);
+  width: 2rem;
+  height: 2rem;
+}
+
+.startIconDisabled {
+  fill: rgb(209, 206, 206);
+}
+
+.starIconEnabled:hover,
+.startIconDisabled:hover {
+  filter: brightness(50%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    font-size: 0.9rem;
+  }
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .starIconEnabled {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .startIconDisabled {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .iconContainer {
+    width: 5%;
+  }
+
+  .exchange {
+    width: 15%;
+  }
+
+  .changePercent {
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .label {
+    width: 30%;
+  }
+
+  .name {
+    width: 35%;
+  }
+
+  .disabledName {
+    width: 85%;
+    color: rgb(209, 206, 206);
+  }
+  .priceChange {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    align-self: flex-start;
+    width: 10%;
+  }
+
+  .price {
+    width: 8%;
+  }
+
+  .changePercent {
+    width: 8%;
+  }
+
+  .exchange {
+    width: 10%;
+  }
+
+  .disabledLabel {
+    width: 30%;
+  }
+
+  .disabledName {
+    width: 60%;
+  }
+  .iconContainer {
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .label {
+    width: 25%;
+  }
+
+  .name {
+    width: 30%;
+  }
+
+  .priceChange {
+    width: 20%;
+  }
+
+  .price {
+    width: 20%;
+  }
+
+  .changePercent {
+    width: 20%;
+  }
+
+  .percent {
+    width: 25%;
+  }
+
+  .divident {
+    width: 20%;
+  }
+
+  .exchange {
+    width: 20%;
+  }
+
+  .disabledName {
+    width: 60%;
+  }
+  .iconContainer {
+    width: 15%;
+  }
+}

@@ -1,0 +1,10 @@
+.icon {
+  stroke: cornsilk;
+  width: 3rem;
+  height: 3rem;
+  fill: #ffff;
+}
+
+.icon:hover {
+  fill: rgb(223, 207, 207);
+}
